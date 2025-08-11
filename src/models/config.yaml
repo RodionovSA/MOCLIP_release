@@ -1,0 +1,17 @@
+variant: 'basic'
+geometry_backbone: 'resnet_custom'
+spectra_backbone: 'spectra_mlp'
+
+geometry_backbone_params:
+  output_features: 64
+  backbone: resnet18    # for ResNetCustom
+
+spectra_backbone_params:
+  output_features: 64
+  input_features: 58  # or your desired embedding size
+
+# initial temperature (will be learned)
+init_temperature: 0.07
+
+#Weights path
+weights_path: '../src/models/weights/moclip_v1.pth'
