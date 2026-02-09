@@ -1,3 +1,4 @@
+# Configuration for MOCLIP model
 variant: 'basic'
 geometry_backbone: 'resnet_custom'
 spectra_backbone: 'spectra_mlp'
