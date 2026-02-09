@@ -1,11 +1,9 @@
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
-import os
 from torchvision import transforms
 from omegaconf import DictConfig
 
-from typing import Tuple
 
 class EML_Dataset(Dataset):
     def __init__(self, root, transform=None):
