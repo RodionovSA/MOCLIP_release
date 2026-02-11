@@ -5,7 +5,9 @@ MOCLIP (Metasurface Optics Contrastive Learning Pretrained) is a foundation mode
 
 ![MOCLIP overview](assets/overview.png)
 
-Details on the dataset generation and MOCLIP training can be found in the following arxiv preprint: 
+Details on the dataset generation and MOCLIP architecture can be found in the following arxiv preprint: 
 **[MOCLIP: A Foundation Model for Large-Scale Nanophotonic Inverse Design](https://arxiv.org/abs/2511.18980)**.
 
 Alongside the pretrained model, this repository provides a 10k randomly sampled subset of the full dataset for reproducibility, experimentation, and benchmarking.
+
+## Getting started
