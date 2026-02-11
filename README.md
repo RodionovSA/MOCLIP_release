@@ -14,7 +14,7 @@ Alongside the pretrained model, this repository provides a 10k randomly sampled 
 
 ### Hardware Requirements
 
-MOCLIP was trained and evaluated on an NVIDIA RTX 4090 GPU with CUDA support. While the model can technically run on a CPU, performance will be prohibitively slow for most practical use cases. We strongly recommend using an NVIDIA GPU with CUDA support for training and inference.
+MOCLIP was trained and evaluated on an NVIDIA RTX 4090 GPU with CUDA support. While the model can technically run on a CPU, performance will be prohibitively slow for most practical use cases. We strongly recommend using an NVIDIA GPU with CUDA support for inference.
 
 ### Software Requirements
 - Ubuntu 24.04 LTS (tested; macOS and Windows are expected to work but are not officially validated)
