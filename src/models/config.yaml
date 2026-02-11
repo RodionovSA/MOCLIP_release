@@ -1,4 +1,8 @@
+# src/models/config.yaml
+
 # Configuration for MOCLIP model
+# Any changes to this config are not supported in the implementation. 
+
 variant: 'basic'
 geometry_backbone: 'resnet_custom'
 spectra_backbone: 'spectra_mlp'

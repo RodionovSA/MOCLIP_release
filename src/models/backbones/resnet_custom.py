@@ -1,3 +1,6 @@
+# src/models/backbones/resnet_custom.py
+# A custom ResNet backbone 
+
 import torch
 import torch.nn as nn
 import torchvision.models as models

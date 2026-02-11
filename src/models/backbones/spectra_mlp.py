@@ -1,7 +1,8 @@
+# src/models/backbones/spectra_mlp.py
+# Spectra MLP backbone for MOCLIP
+
 import torch
 import torch.nn as nn
-
-import math
     
 class SpectraMLP(nn.Module):
     def __init__(self, output_features: int, 

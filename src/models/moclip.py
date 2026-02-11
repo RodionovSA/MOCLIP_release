@@ -1,4 +1,6 @@
 # src/models/moclip.py
+# MOCLIP builder based on the config
+
 import torch
 import torch.nn as nn
 from src.models.basic import MOCLIPBasic
@@ -27,7 +29,7 @@ def build_moclip(cfg) -> nn.Module:
       init_temperature=cfg.init_temperature,
     )
     # Load the checkpoint
-    model_state_dict = torch.load(cfg.weights_path, map_location='cpu')
+    model_state_dict = torch.load(cfg.weights_path, map_location='cpu', weights_only=True)
 
     # Load the state dict into model
     model.load_state_dict(model_state_dict)
