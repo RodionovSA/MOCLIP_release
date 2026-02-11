@@ -19,4 +19,4 @@ spectra_backbone_params:
 init_temperature: 0.07
 
 #Weights path
-weights_path: '../src/models/weights/moclip_v1.pth'
+weights_path: '../src/models/weights/moclip_v2.pth'
