@@ -9,9 +9,9 @@ geometry_backbone_params:
 
 spectra_backbone_params:
   output_features: 64
-  input_features: 58  # or your desired embedding size
+  input_features: 58  
 
-# initial temperature (will be learned)
+# initial temperature 
 init_temperature: 0.07
 
 #Weights path
